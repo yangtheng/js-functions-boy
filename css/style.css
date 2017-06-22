@@ -1,0 +1,9 @@
+body {
+  background-color:rgba(5, 38, 96, 0.7);
+  color: white;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
