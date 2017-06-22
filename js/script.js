@@ -1,4 +1,4 @@
-console.log('linked to my html')
+console.log('trying some changes')
 
 // function pausecomp (millis) {
 //   var date = new Date()
