@@ -4,6 +4,7 @@
 var randomNumber = randomFn(0, 10)
 var guessedNum = prompt('The first guess: type your number!')
 var isCorrect = false
+var gameOver = false
 
 function randomFn (min, max) {
   return Math.floor(Math.random() * (max - min)) + min
