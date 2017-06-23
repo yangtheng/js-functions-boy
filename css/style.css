@@ -1,9 +1,14 @@
 body {
   background-color:rgba(5, 38, 96, 0.7);
-  color: white;
+  color: red;
 }
 
 .container {
   width: 600px;
   margin: 0 auto;
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+  font-size: 50px;
 }
