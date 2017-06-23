@@ -4,13 +4,12 @@
 var randomNumber = randomFn(0, 10)
 var guessedNum = prompt('The first guess: type your number!')
 var isCorrect = false
-var gameOver = false
 
 function randomFn (min, max) {
   return Math.floor(Math.random() * (max - min)) + min
 }
 
-function updateH1(newH1) {
+function updateH1 (newH1) {
   var h1 = document.querySelector('h1')
   // updated the property of h1 dom node
   h1.textContent = newH1
@@ -26,7 +25,7 @@ function askForANumber (guessedNum, randomNumber) {
     updateH1('higher, randomNumber is ' + randomNumber)
   }
 
-  if( guessedNum === randomNumber) {
+  if (guessedNum === randomNumber) {
     updateH1('correct')
     gameOver = true
   }
@@ -34,12 +33,12 @@ function askForANumber (guessedNum, randomNumber) {
   checkForGameover()
 }
 
-function newGame() {
-  askForANumber( guessedNum, 5 )
+function newGame () {
+  askForANumber(guessedNum, 5)
 }
 
-function checkForGameover() {
-  if(gameOver) {
+function checkForGameover () {
+  if (gameOver) {
     alert('reveal the restart button now, stop the game')
   } else {
     guessedNum = prompt('Type your number again!')
@@ -47,6 +46,6 @@ function checkForGameover() {
   }
 }
 
-if(! gameOver) {
+if (!gameOver) {
   newGame()
 }
