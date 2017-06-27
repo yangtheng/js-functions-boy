@@ -10,4 +10,26 @@ body {
 h1 {
   font-family: 'VT323', monospace;
   font-size: 50px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+button {
+  text-align: center;
+  font-size: 50px;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#yay {
+  font-family: 'VT323', monospace;
+  text-align: center;
+  opacity: 0;
+  font-size: 50px;
 }
